@@ -1,4 +1,4 @@
-sudo apt install -y unzip php-zip nano
+sudo apt install -y unzip php-zip nano lsb-release gnupg
 
 composer global require laravel/installer
 export PATH="~/.composer/vendor/bin:$PATH"
