@@ -1,4 +1,21 @@
 {
-  "name": "Laravel",
-  "image": "bitnami/laravel"
+  "name": "Laravel Bitnami Codespace",
+  "image": "bitnami/laravel",
+  
+  "extensions": [
+    "absszero.vscode-laravel-goto",
+    "mohamedbenhida.laravel-intellisense",
+    "ryannaddy.laravel-artisan",
+    "onecentlin.laravel-blade"
+  ],
+  
+  "settings": {
+    "terminal.integrated.shell.linux": "/bin/bash",
+    "files.autoSave": "off",
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "[blade]": {
+      "editor.autoClosingBrackets": "always"
+    }
+  }
 }
