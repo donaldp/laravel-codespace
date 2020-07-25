@@ -3,6 +3,7 @@
   "image": "bitnami/laravel",
   
   "extensions": [
+    "felixfbecker.php-intellisense",
     "absszero.vscode-laravel-goto",
     "mohamedbenhida.laravel-intellisense",
     "ryannaddy.laravel-artisan",
