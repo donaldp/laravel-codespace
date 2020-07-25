@@ -1,25 +1,4 @@
 {
   // environment image
-  "image": "lorisleiva/laravel-docker",
-
-  // install laravel extensions 
-  "extensions": [
-    "absszero.vscode-laravel-goto",
-    "mohamedbenhida.laravel-intellisense",
-    "ryannaddy.laravel-artisan",
-    "onecentlin.laravel-blade"
-  ],
-  
-  // configure environment
-  "settings": {
-    "files.autoSave": "off",
-    "emmet.triggerExpansionOnTab": true,
-    "blade.format.enable": true,
-    "[blade]": {
-      "editor.autoClosingBrackets": "always"
-    },
-  },
-  
-  // execute post create script
-  "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+  "image": "lorisleiva/laravel-docker"
 }
