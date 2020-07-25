@@ -1,0 +1,18 @@
+{
+  // install laravel extensions 
+  "extensions": [
+    "absszero.vscode-laravel-goto",
+    "mohamedbenhida.laravel-intellisense",
+    "ryannaddy.laravel-artisan",
+    "onecentlin.laravel-blade"
+  ],
+  
+  // configure environment
+  "settings": {
+    "emmet.triggerExpansionOnTab": true,
+    "blade.format.enable": true,
+    "[blade]": {
+      "editor.autoClosingBrackets": "always"
+    },
+  },
+}
