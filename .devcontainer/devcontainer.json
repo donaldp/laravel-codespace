@@ -1,3 +1,4 @@
 {
-  "name": "Laravel"
+  "name": "Laravel",
+  "image": "lorisleiva/laravel-docker"
 }
