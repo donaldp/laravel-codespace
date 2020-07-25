@@ -1,4 +1,3 @@
 {
-  // environment image
-  "image": "lorisleiva/laravel-docker"
+  "name": "Laravel"
 }
