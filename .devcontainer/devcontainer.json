@@ -11,7 +11,6 @@
   ],
   
   "settings": {
-    //"terminal.integrated.shell.linux": "/bin/bash",
     "files.autoSave": "off",
     "emmet.triggerExpansionOnTab": true,
     "blade.format.enable": true,
@@ -20,5 +19,5 @@
     }
   },
   
-  //"postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
+  "postCreateCommand": "/bin/bash ./.devcontainer/post-create.sh > ~/post-create.log",
 }
