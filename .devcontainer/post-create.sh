@@ -1,9 +1,10 @@
+sudo apt install -y nano lsb-release gnupg
+
 wget http://repo.mysql.com/mysql-apt-config_0.8.13-1_all.deb -O ~/mysql-apt-config.deb
 sudo dpkg -i ~/mysql-apt-config.deb
 
 sudo apt update
-
-sudo apt install -y unzip php-zip nano lsb-release gnupg mysql-server
+sudo apt install -y mysql-server
 
 composer global require laravel/installer
 export PATH="~/.composer/vendor/bin:$PATH"
