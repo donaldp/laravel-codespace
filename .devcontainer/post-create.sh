@@ -7,7 +7,7 @@ sudo apt update
 sudo apt install -y mysql-server
 
 composer global require laravel/installer
-export PATH="~/.composer/vendor/bin:$PATH"
+echo '\nexport PATH="~/.composer/vendor/bin:$PATH"' >> ~/.bashrc
 
 cp ~/workspace/laravel-codespace/.devcontainer/aliases ~/.bash_aliases
 source ~/.bashrc
