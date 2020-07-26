@@ -1,0 +1,3 @@
+alias ll='ls -al'
+alias gs='git status'
+alias refresh='source ~/.bashrc'
