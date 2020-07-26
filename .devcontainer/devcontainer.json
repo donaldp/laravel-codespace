@@ -3,7 +3,8 @@
   "image": "eliurkis/laravel",
   
   "extensions": [
-    "felixfbecker.php-intellisense",
+    "bmewburn.vscode-intelephense-client",
+    "mehedidracula.php-namespace-resolver",
     "absszero.vscode-laravel-goto",
     "mohamedbenhida.laravel-intellisense",
     "ryannaddy.laravel-artisan",
