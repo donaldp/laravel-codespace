@@ -6,6 +6,11 @@ sudo dpkg -i ~/mysql-apt-config.deb
 sudo apt update
 sudo apt install -y mysql-server
 
+sudo pecl install redis
+sudo docker-php-ext-enable redis
+
+sudo service redis-server start
+
 composer global require laravel/installer
 echo 'export PATH="~/.composer/vendor/bin:$PATH"' >> ~/.bashrc
 
